@@ -1,12 +1,12 @@
 document.getElementById('submit-button').addEventListener('click', function () {
-    const emailField = document.getElementById('user-email');
-    const userEmail = emailField.Value;
+
+
+    const email = document.getElementById('user-email').value;
 
     // get user password
-    const passwordField = document.getElementById('user-password');
-    const userPasswoed = passwordField.Value;
+    const password = document.getElementById('user-password').value;
 
-    if (userEmail == 'sajib.11@gmail.com' && userPasswoed == 'secrit'); {
+    if (email == 'sajib.11@gmail.com' && password == '1234') {
         window.location.href = 'banking.html';
     }
 
